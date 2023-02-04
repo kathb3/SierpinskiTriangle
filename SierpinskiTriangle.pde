@@ -4,7 +4,7 @@ public void setup(){
 }
 
 public void draw(){
-  sierpinski(100,700,600);
+  sierpinski(100,600,500);
 }
 
 public void mouseDragged(){//timeline drag??]
