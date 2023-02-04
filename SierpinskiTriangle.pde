@@ -6,9 +6,13 @@ public void setup(){
 public void draw(){
   sierpinski(100,700,600);
 }
-
+int x = 10;
 public void mouseDragged(){//timeline drag??]
-
+  if(x <= 780){
+    x+=5;
+  }else{
+    x = 0;
+  }
 }
 
 public void sierpinski(int x, int y, int len){
